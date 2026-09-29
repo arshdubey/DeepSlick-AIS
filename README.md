@@ -79,7 +79,7 @@ Once both the backend and frontend servers are running on your device:
 
 ## 🏆 Smart India Hackathon 2026
 This project was developed for the Smart India Hackathon (SIH) 2026. 
-* **Theme:** Space Technology / CleanTech
+* **Theme:** Disaster Management
 * **Category:** Software
 
 ---
