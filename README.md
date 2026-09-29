@@ -63,6 +63,20 @@ npm run dev
 
 ---
 
+## 💻 How to Use the System
+
+Once both the backend and frontend servers are running on your device:
+
+1. **Access the Dashboard:** Open your web browser and navigate to `http://localhost:3000`. You will be greeted by the Orbital Surveillance Dashboard and a 3D Earth view.
+2. **Enter Tactical Mode:** Click the **Tactical Layer (Deck.gl)** button in the bottom left footer to switch from the global view to the tactical map interface.
+3. **Select an Incident:** You will see active incidents listed on the left panel (e.g., `SLICK-994A` or `SLICK-993B`). Click on an incident to fetch its specific SAR geometry and AIS tracking logs from the backend.
+4. **Run the Forensic Drift Engine:**
+   - Use the **Source Trace (Hindcast)** slider at the bottom. Scrub it backward (-36h to 0) to visualize the oil particles' estimated past trajectories and see exactly when and where they intersect with suspect vessels in the area.
+   - Use the **Drift Forecast** slider to project the oil spill forward in time (+36h) to predict coastal impact zones.
+5. **Analyze Suspects:** Hover over the colored trajectory lines of ships on the map to view their MMSI, type, and speed at that exact timestamp. The ship whose path intersects the slick's origin point at the `-36H` timestamp is flagged as the primary suspect.
+
+---
+
 ## 🏆 Smart India Hackathon 2026
 This project was developed for the Smart India Hackathon (SIH) 2026. 
 * **Theme:** Space Technology / CleanTech
