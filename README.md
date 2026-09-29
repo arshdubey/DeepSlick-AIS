@@ -2,7 +2,7 @@
 
 **Orbital Surveillance & Forensic Attribution Engine for Marine Oil Spills**
 
-![DeepSlick-AIS Tactical Dashboard](test.jpg)
+![DeepSlick-AIS Tactical Dashboard](dashboard_preview.png)
 
 DeepSlick-AIS is an autonomous marine surveillance platform designed to combat illegal ocean dumping. By combining space-based radar, advanced hydrodynamic drift modeling, and maritime tracking data, the system not only detects oil spills but mathematically traces them back to the exact responsible vessel.
 
